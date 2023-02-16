@@ -1,7 +1,7 @@
 # BananaBoard
 ## Project description
 The BananaBoard is a solution to a problem of hooking up power supplies with standard 4mm Banana Plugs to Breadboards.
-It was based on the idea of not having to own multiple cables and being easier to use than 4mm Banana Plug to Alligator clips and more reliable than the 4mm Banana Plug to 2.54mm Pin header cables.
+It was based on the idea of not having to own multiple cables and being easier to use, rather than relying on 4mm Banana Plug to Alligator clips or the 4mm Banana Plug to 2.54mm Pin header cables.
 
 ![alt text][trio]
 
@@ -41,7 +41,7 @@ The files were sent off to to a manufacturer and got the ENIG treatment to enhan
 Total cost for the PCB came to aproximately €16.10 including shipping.
 
 ## Design files
-If you desire to order these yourself, you can download the attached [gerber file](production/gerber.zip)
+If you desire to order these yourself, you can download the attached [gerber file](production/gerber.zip).
 However you are encouraged to download the entire repo and verify the files yourself using
 `git clone https://github.com/Cuprum77/BananaBoard.git`
 
