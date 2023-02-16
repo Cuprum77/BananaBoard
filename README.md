@@ -5,15 +5,6 @@ It was based on the idea of not having to own multiple cables and being easier t
 
 ![alt text][trio]
 
-## Polarity
-This is a prototype of an idea I had for a different project in the future, and thus lacks polarity indicators on both sides.
-There are indicators on the bottom, which *should* have been the top, although I personally prefer the artwork over the simplistic design.
-
-**However**, the PCB itself is not polarized and does __not care__ if you connect it backwards!
-
-![alt text][pinout]
-Example on suggested polarity
-
 ## Design 
 The PCB itself is designed around the [Keystone Electronics 575-4](https://www.keyelco.com/product.cfm/product_id/2379) Banana Plug sockets.
 
@@ -48,6 +39,15 @@ To make the circuit board a bit more interesting, the users of the [Styropyro](h
 and does therefor contain artwork based off inside jokes and meme culture.
 
 ![alt text][singular]
+
+## Polarity
+This is a prototype of an idea I had for a different project in the future, and thus lacks polarity indicators on both sides.
+There are indicators on the bottom, which *should* have been the top, although I personally prefer the artwork over the simplistic design.
+
+**However**, the PCB itself is not polarized and does __not care__ if you connect it backwards!
+
+![alt text][pinout]
+Example on suggested polarity
 
 ## Ordering
 The files were sent off to to a manufacturer and got the ENIG treatment to enhance the artwork.
