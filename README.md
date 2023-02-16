@@ -51,6 +51,6 @@ Note that this project was originally built using KiCAD 6, however it has been u
 Hardware is licensed under [CERN OHL](LICENSE) while each artwork on the PCB are protected under their creators copyright and should be respected.
 
 [singular]: https://github.com/Cuprum77/BananaBoard/blob/main/Images/single_pcb.jpg "PCBs from Aisler"
-[trio]: https://github.com/Cuprum77/BananaBoard/blob/main/Images/all_pcbs.jpg "PCBs from Aisler"
+[trio]: https://github.com/Cuprum77/BananaBoard/blob/main/Images/all_pcbs.png "PCBs from Aisler"
 [breadboard]: https://github.com/Cuprum77/BananaBoard/blob/main/Images/breadboard_example.jpg "PCBs from Aisler"
 [BB830]: http://www.busboard.com/BB830T
