@@ -40,14 +40,12 @@ and does therefor contain artwork based off inside jokes and meme culture.
 
 ![alt text][singular]
 
-## Polarity
-This is a prototype of an idea I had for a different project in the future, and thus lacks polarity indicators on both sides.
-There are indicators on the bottom, which *should* have been the top, although I personally prefer the artwork over the simplistic design.
-
-**However**, the PCB itself is not polarized and does __not care__ if you connect it backwards!
-
-![alt text][pinout]
+## Connection
+The design itself has connection indicators on the bottom side if one does not care for the artwork.
 Example on suggested polarity
+![alt text][pinout]
+**Important**, the PCB itself is not polarized, does not have polarized components and does __not__ care if you connect it backwards!
+However that assumes that you use non-polarized capacitors!
 
 ## Ordering
 The files were sent off to to a manufacturer and got the ENIG treatment to enhance the artwork.
