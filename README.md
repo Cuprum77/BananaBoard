@@ -49,7 +49,7 @@ However that assumes that you use non-polarized capacitors!
 
 ## Ordering
 The files were sent off to to a manufacturer and got the ENIG treatment to enhance the artwork.
-Total cost for the PCB came to aproximately €16.10 including shipping.
+Total cost for the PCB came to aproximately €16.10 including shipping for 3 boards.
 
 ## Design files
 If you desire to order these yourself, you can download the attached [gerber file](production/gerber.zip).
