@@ -32,8 +32,7 @@ However, this has not been tested on any other breadboard than the [BB830]
 
 ## Art
 To make the circuit board a bit more interesting, the users of the [Styropyro](https://styropyro.com/) Discord server was petitioned to come up with ideas on what to populate it with,
-and does therefor contain a artwork based off inside jokes and meme culture.
-The artwork was then chosen based on how easy it would be to convert to vectors using KiCADs built in bitmap to vector tool and positioned wherever there was space.
+and does therefor contain artwork based off inside jokes and meme culture.
 
 ![alt text][singular]
 
