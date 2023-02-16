@@ -1,9 +1,18 @@
 # BananaBoard
 ## Project description
 The BananaBoard is a solution to a problem of hooking up power supplies with standard 4mm Banana Plugs to Breadboards.
-It was based on the idea of not having to own multiple cables and being easier to use than 4mm Banana Plug to Alligator clips and more reliable than the 4mm Banana Plug to 2.54mm Pin header cables.
+It was based on the idea of not having to own multiple cables and being easier to use, rather than relying on 4mm Banana Plug to Alligator clips or the 4mm Banana Plug to 2.54mm Pin header cables.
 
 ![alt text][trio]
+
+## Polarity
+This is a prototype of an idea I had for a different project in the future, and thus lacks polarity indicators on both sides.
+There are indicators on the bottom, which *should* have been the top, although I personally prefer the artwork over the simplistic design.
+
+**However**, the PCB itself is not polarized and does __not care__ if you connect it backwards!
+
+![alt text][pinout]
+Example on suggested polarity
 
 ## Design 
 The PCB itself is designed around the [Keystone Electronics 575-4](https://www.keyelco.com/product.cfm/product_id/2379) Banana Plug sockets.
@@ -20,19 +29,23 @@ So far all those requirements have been implemented on the first prototype.
 ## Breadboard Requirements
 It *should* fit any board that fits within this dimension: 
 
-If the positive and negative rail are not mirrored on either side:
-* Positive rail to positive rail: 1.65" ± 0.025"
-If the positive rail and negative rail are mirrored on either side:
-* Positive rail to positive rail: 1.75" ± 0.025"
+  If the positive and negative rail are not mirrored on either side:
+  * Positive rail to positive rail: 1.65" ± 0.025".
+
+  If the positive rail and negative rail are mirrored on either side:
+  * Positive rail to positive rail: 1.75" ± 0.025".
 
 However, this has not been tested on any other breadboard than the [BB830]
 
 ![alt text][breadboard]
 
+## Difficulties
+Originally the project had no thermal relief under the idea that we should be limiting the current as little as possible, however that turned out to be a huge mistake as it made soldering almost impossible with a lower wattage iron due to the amount of copper. 
+The uploaded version should be fixed and that should not be an issue with future orders.
+
 ## Art
 To make the circuit board a bit more interesting, the users of the [Styropyro](https://styropyro.com/) Discord server was petitioned to come up with ideas on what to populate it with,
-and does therefor contain a artwork based off inside jokes and meme culture.
-The artwork was then chosen based on how easy it would be to convert to vectors using KiCADs built in bitmap to vector tool and positioned wherever there was space.
+and does therefor contain artwork based off inside jokes and meme culture.
 
 ![alt text][singular]
 
@@ -41,7 +54,7 @@ The files were sent off to to a manufacturer and got the ENIG treatment to enhan
 Total cost for the PCB came to aproximately €16.10 including shipping.
 
 ## Design files
-If you desire to order these yourself, you can download the attached [gerber file](production/gerber.zip)
+If you desire to order these yourself, you can download the attached [gerber file](production/gerber.zip).
 However you are encouraged to download the entire repo and verify the files yourself using
 `git clone https://github.com/Cuprum77/BananaBoard.git`
 
@@ -53,4 +66,5 @@ Hardware is licensed under [CERN OHL](LICENSE) while each artwork on the PCB are
 [singular]: https://github.com/Cuprum77/BananaBoard/blob/main/Images/single_pcb.jpg "PCBs from Aisler"
 [trio]: https://github.com/Cuprum77/BananaBoard/blob/main/Images/all_pcbs.png "PCBs from Aisler"
 [breadboard]: https://github.com/Cuprum77/BananaBoard/blob/main/Images/breadboard_example.jpg "PCBs from Aisler"
+[pinout]: https://github.com/Cuprum77/BananaBoard/blob/main/Images/example-pinout.png "Pinout"
 [BB830]: http://www.busboard.com/BB830T
