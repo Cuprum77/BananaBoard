@@ -20,10 +20,11 @@ So far all those requirements have been implemented on the first prototype.
 ## Breadboard Requirements
 It *should* fit any board that fits within this dimension: 
 
-If the positive and negative rail are not mirrored on either side:
-* Positive rail to positive rail: 1.65" ± 0.025"
-If the positive rail and negative rail are mirrored on either side:
-* Positive rail to positive rail: 1.75" ± 0.025"
+  If the positive and negative rail are not mirrored on either side:
+  * Positive rail to positive rail: 1.65" ± 0.025".
+
+  If the positive rail and negative rail are mirrored on either side:
+  * Positive rail to positive rail: 1.75" ± 0.025".
 
 However, this has not been tested on any other breadboard than the [BB830]
 
